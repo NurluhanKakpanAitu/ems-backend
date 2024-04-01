@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D9747733-57CC-4A00-8072-AEE5D599BDB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{1FDCF678-6EA4-44B3-ACF3-3EF24452C786}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{77ECD84D-64E8-43BE-8A53-17F7275D0652}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{2233FAE1-DC8B-44DE-BCAC-F10AF2AE0C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{ADDEB27D-DDBA-46A2-B492-16F17A009D57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{8812387E-35A6-480B-A4D1-177789A190C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{4A813020-0E84-4D23-BC6F-C35872D897AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2A2FA978-31B7-465C-9522-4FD14BC7C4D5}"
+	ProjectSection(SolutionItems) = preProject
+		postgres-docker-compose.yml = postgres-docker-compose.yml
+		CreateMigration.ps1 = CreateMigration.ps1
+		RemoveMigration.ps1 = RemoveMigration.ps1
+		UpdateMigration.ps1 = UpdateMigration.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2233FAE1-DC8B-44DE-BCAC-F10AF2AE0C1B} = {D9747733-57CC-4A00-8072-AEE5D599BDB3}
+		{ADDEB27D-DDBA-46A2-B492-16F17A009D57} = {D9747733-57CC-4A00-8072-AEE5D599BDB3}
+		{8812387E-35A6-480B-A4D1-177789A190C5} = {77ECD84D-64E8-43BE-8A53-17F7275D0652}
+		{4A813020-0E84-4D23-BC6F-C35872D897AB} = {1FDCF678-6EA4-44B3-ACF3-3EF24452C786}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2233FAE1-DC8B-44DE-BCAC-F10AF2AE0C1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2233FAE1-DC8B-44DE-BCAC-F10AF2AE0C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2233FAE1-DC8B-44DE-BCAC-F10AF2AE0C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2233FAE1-DC8B-44DE-BCAC-F10AF2AE0C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADDEB27D-DDBA-46A2-B492-16F17A009D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADDEB27D-DDBA-46A2-B492-16F17A009D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADDEB27D-DDBA-46A2-B492-16F17A009D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADDEB27D-DDBA-46A2-B492-16F17A009D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8812387E-35A6-480B-A4D1-177789A190C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8812387E-35A6-480B-A4D1-177789A190C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8812387E-35A6-480B-A4D1-177789A190C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8812387E-35A6-480B-A4D1-177789A190C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A813020-0E84-4D23-BC6F-C35872D897AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A813020-0E84-4D23-BC6F-C35872D897AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A813020-0E84-4D23-BC6F-C35872D897AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A813020-0E84-4D23-BC6F-C35872D897AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
