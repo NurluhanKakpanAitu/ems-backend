@@ -10,3 +10,16 @@
 /home/nurlykhan/RiderProjects/EMS/Domain/obj/Debug/net8.0/Domain.pdb
 /home/nurlykhan/RiderProjects/EMS/Domain/obj/Debug/net8.0/ref/Domain.dll
 /home/nurlykhan/RiderProjects/EMS/Domain/obj/Debug/net8.0/Domain.csproj.AssemblyReference.cache
+/Users/nurlykhankakpan/RiderProjects/ems-backend/Domain/bin/Debug/net8.0/Domain.deps.json
+/Users/nurlykhankakpan/RiderProjects/ems-backend/Domain/bin/Debug/net8.0/Domain.dll
+/Users/nurlykhankakpan/RiderProjects/ems-backend/Domain/bin/Debug/net8.0/Domain.pdb
+/Users/nurlykhankakpan/RiderProjects/ems-backend/Domain/obj/Debug/net8.0/Domain.csproj.AssemblyReference.cache
+/Users/nurlykhankakpan/RiderProjects/ems-backend/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nurlykhankakpan/RiderProjects/ems-backend/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/Users/nurlykhankakpan/RiderProjects/ems-backend/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/Users/nurlykhankakpan/RiderProjects/ems-backend/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/Users/nurlykhankakpan/RiderProjects/ems-backend/Domain/obj/Debug/net8.0/Domain.sourcelink.json
+/Users/nurlykhankakpan/RiderProjects/ems-backend/Domain/obj/Debug/net8.0/Domain.dll
+/Users/nurlykhankakpan/RiderProjects/ems-backend/Domain/obj/Debug/net8.0/refint/Domain.dll
+/Users/nurlykhankakpan/RiderProjects/ems-backend/Domain/obj/Debug/net8.0/Domain.pdb
+/Users/nurlykhankakpan/RiderProjects/ems-backend/Domain/obj/Debug/net8.0/ref/Domain.dll

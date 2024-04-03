@@ -3675,19 +3675,19 @@
     ]
   },
   "packageFolders": {
-    "/home/nurlykhan/.nuget/packages/": {}
+    "/Users/nurlykhankakpan/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nurlykhan/RiderProjects/EMS/WebApplication1/WebApplication1.csproj",
+      "projectUniqueName": "/Users/nurlykhankakpan/RiderProjects/ems-backend/WebApplication1/WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "/home/nurlykhan/RiderProjects/EMS/WebApplication1/WebApplication1.csproj",
-      "packagesPath": "/home/nurlykhan/.nuget/packages/",
-      "outputPath": "/home/nurlykhan/RiderProjects/EMS/WebApplication1/obj/",
+      "projectPath": "/Users/nurlykhankakpan/RiderProjects/ems-backend/WebApplication1/WebApplication1.csproj",
+      "packagesPath": "/Users/nurlykhankakpan/.nuget/packages/",
+      "outputPath": "/Users/nurlykhankakpan/RiderProjects/ems-backend/WebApplication1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/nurlykhan/.nuget/NuGet/NuGet.Config"
+        "/Users/nurlykhankakpan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -3700,8 +3700,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/nurlykhan/RiderProjects/EMS/Persistence/Persistence.csproj": {
-              "projectPath": "/home/nurlykhan/RiderProjects/EMS/Persistence/Persistence.csproj"
+            "/Users/nurlykhankakpan/RiderProjects/ems-backend/Persistence/Persistence.csproj": {
+              "projectPath": "/Users/nurlykhankakpan/RiderProjects/ems-backend/Persistence/Persistence.csproj"
             }
           }
         }
@@ -3754,7 +3754,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/nurlykhan/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

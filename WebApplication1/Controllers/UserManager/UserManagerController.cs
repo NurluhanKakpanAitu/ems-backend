@@ -27,14 +27,14 @@ public class UserManagerController(
         return Ok();
     }
     
-    [HttpPost("change-role")]
+    [HttpPut("change-role")]
     public async Task<IActionResult> ChangeRole([FromBody] ChangeRoleDto changeRoleDto, CancellationToken cancellationToken)
     {
         await userManagerCommandService.ChangeRole(changeRoleDto, cancellationToken);
         return Ok();
     }
     
-    [HttpPost("change-permission")]
+    [HttpPut("change-permission")]
     public async Task<IActionResult> ChangePermission([FromBody] ChangePermissionDto changePermissionDto, CancellationToken cancellationToken)
     {
         await userManagerCommandService.ChangePermission(changePermissionDto, cancellationToken);

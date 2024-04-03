@@ -1375,19 +1375,19 @@
     ]
   },
   "packageFolders": {
-    "/home/nurlykhan/.nuget/packages/": {}
+    "/Users/nurlykhankakpan/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nurlykhan/RiderProjects/EMS/Domain/Domain.csproj",
+      "projectUniqueName": "/Users/nurlykhankakpan/RiderProjects/ems-backend/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "/home/nurlykhan/RiderProjects/EMS/Domain/Domain.csproj",
-      "packagesPath": "/home/nurlykhan/.nuget/packages/",
-      "outputPath": "/home/nurlykhan/RiderProjects/EMS/Domain/obj/",
+      "projectPath": "/Users/nurlykhankakpan/RiderProjects/ems-backend/Domain/Domain.csproj",
+      "packagesPath": "/Users/nurlykhankakpan/.nuget/packages/",
+      "outputPath": "/Users/nurlykhankakpan/RiderProjects/ems-backend/Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/nurlykhan/.nuget/NuGet/NuGet.Config"
+        "/Users/nurlykhankakpan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1441,7 +1441,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/nurlykhan/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
