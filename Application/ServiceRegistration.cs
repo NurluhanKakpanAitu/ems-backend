@@ -8,6 +8,8 @@ using Application.Services.Dictionary.Command;
 using Application.Services.Dictionary.Command.Impl;
 using Application.Services.Dictionary.Query;
 using Application.Services.Dictionary.Query.Impl;
+using Application.Services.User.Command;
+using Application.Services.User.Query;
 using Application.Services.UserManager.Command;
 using Application.Services.UserManager.Query;
 using Microsoft.Extensions.Configuration;
@@ -33,6 +35,8 @@ public static class ServiceRegistration
         services.AddScoped<IUserManagerCommandService, UserManagerCommandService>();
         services.AddScoped<IUserManagerQueryService, UserManagerQueryService>();
         services.AddScoped<IAccountQueryService, AccountQueryService>();
+        services.AddScoped<IUserQueryService, UserQueryService>();
+        services.AddScoped<IUserCommandService, UserCommandService>();
         
 
     }
