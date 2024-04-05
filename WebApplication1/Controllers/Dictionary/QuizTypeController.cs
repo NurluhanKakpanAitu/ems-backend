@@ -21,12 +21,9 @@ public class QuizTypeController(
     /// <returns></returns>
     
     [HttpPost("create")]
-    [ProducesResponseType(200, Type = typeof(Ok))]
-    [ProducesResponseType(400, Type = typeof(BadRequestResult))]
-    [ProducesResponseType(401,Type = typeof(UnauthorizedResult))]
-    [ProducesResponseType(403,Type = typeof(ForbidResult))]
     public async Task<IActionResult> Create([FromBody] QuizTypeCreateDto createDto, CancellationToken cancellationToken)
     {
+        Console.WriteLine("here come");
         await quizTypeCommandService.CreateAsync(createDto, cancellationToken);
         return Ok();
     }
