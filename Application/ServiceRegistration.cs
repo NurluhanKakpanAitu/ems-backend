@@ -30,6 +30,8 @@ public static class ServiceRegistration
         services.AddScoped<IQuestionTypeQueryService, QuestionTypeQueryService>();
         services.AddScoped<IQuestionGroupCommandService, QuestionGroupCommandService>();
         services.AddScoped<IQuestionGroupQueryService, QuestionGroupQueryService>();
+        services.AddScoped<IQuizTypeQueryService, QuizTypeQueryService>();
+        services.AddScoped<IQuizTypeCommandService, QuizTypeCommandService>();
         services.AddScoped<TokenService>();
         services.AddScoped<IAccountCommandService, AccountCommandService>();
         services.AddScoped<IUserManagerCommandService, UserManagerCommandService>();

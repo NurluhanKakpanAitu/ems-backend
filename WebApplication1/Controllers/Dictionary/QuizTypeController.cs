@@ -23,7 +23,6 @@ public class QuizTypeController(
     [HttpPost("create")]
     public async Task<IActionResult> Create([FromBody] QuizTypeCreateDto createDto, CancellationToken cancellationToken)
     {
-        Console.WriteLine("here come");
         await quizTypeCommandService.CreateAsync(createDto, cancellationToken);
         return Ok();
     }
@@ -42,7 +41,7 @@ public class QuizTypeController(
         return Ok();
     }
     
-    [HttpGet("get-all")]
+    [HttpGet("list")]
     public async Task<IActionResult> GetAll([FromQuery] QuizTypeQuery query, CancellationToken cancellationToken)
     {
         var response = await quizTypeQueryService.GetAllAsync(query, cancellationToken);
